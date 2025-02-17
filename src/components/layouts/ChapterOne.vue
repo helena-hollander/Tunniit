@@ -10,6 +10,7 @@ import ImageContainer from '@/components/molecules/imageContainers/ImageContaine
   <!-- <Image imagePath="src/assets/images/mirror.jpg" class="topimage w-[40vw] absolute"/> -->
   <Image imagePath="src/assets/images/smoke1.png" class="smokeimage absolute w-full"/>
   <Image imagePath="src/assets/images/smoke2.png" class="smoke2image absolute w-full"/>
+  <Image imagePath="src/assets/images/smoke3.png" class="smoke3image absolute w-full"/>
 
 
 
@@ -36,5 +37,8 @@ import ImageContainer from '@/components/molecules/imageContainers/ImageContaine
 }
 .smoke2image {
   transform: translateZ(150px) scale(calc(1 - 150 / 1000));
+}
+.smoke3image {
+  transform: translateZ(100px) scale(calc(1 - 100 / 1000));
 }
 </style>
