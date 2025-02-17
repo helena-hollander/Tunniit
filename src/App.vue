@@ -5,12 +5,15 @@ import ChapterView from './views/ChapterView.vue'
 </script>
 
 <template>
-  <header>
+  <header class="fixed">
   <RouterLink to="/">Home</RouterLink>
   <RouterLink to="/chapter">Tunniit</RouterLink>
-  <RouterView />
-  </header>
 
+  </header>
+  <body>
+  
+  <RouterView></RouterView>
+  </body>
  
 </template>
 
