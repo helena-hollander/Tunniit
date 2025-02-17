@@ -5,5 +5,5 @@ console.log(props.imagePath);
 </script>
 
 <template>
-<img :src="imagePath" alt="image" :class="z ? `z-${z}` : ''" class="w-[80vw]"/> 
+<img :src="imagePath" alt="image" :class="z ? `translate-z-${z}` : ''"/> 
 </template>
