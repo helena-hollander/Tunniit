@@ -14,4 +14,4 @@ import Image from '@/components/atoms/Image.vue';
 
     <!-- Hvordan giver jeg image ny position, uden min scroll index overule, men 'tilføjer' -->
     <!-- Composable function? Tilgå funktionen, selvom den ref til classer i hvert billede?-->
-</template>
+</template> 
