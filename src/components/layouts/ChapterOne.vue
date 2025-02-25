@@ -8,5 +8,7 @@ import ImageParallaxJs from '../molecules/imageContainers/ImageParallaxJs.vue';
 
 <template>
 <!-- <ImageParallaxStyling></ImageParallaxStyling> -->
+ <section>
  <ImageParallaxJs></ImageParallaxJs>
+ </section>
 </template>

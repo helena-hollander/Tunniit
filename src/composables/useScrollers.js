@@ -9,7 +9,8 @@ export default function useScrollers() {
     if(scrollers.value.length) {
       scrollers.value.forEach(scroller => {
         const initialY = scroller.dataset.initialY || '0px';
-        scroller.style.transform = `translate3d(0px, ${initialY}, 0px)`;
+        const initialX = scroller.dataset.initialX || '0px';
+        scroller.style.transform = `translate3d(${initialX}, ${initialY}, 0px)`;
       }
       );
     }
@@ -24,8 +25,11 @@ export default function useScrollers() {
       if(!scroller) return;
       const rate = parseFloat(scroller.dataset.rate) || 0;
       const initialY = parseFloat(scroller.dataset.initialY) || 0;
+      const rateX = parseFloat(scroller.dataset.rateX) || 0;
+      const initialX = parseFloat(scroller.dataset.initialX) || 0;
       const pos = window.pageYOffset * rate;
-      scroller.style.transform = `translate3d(0px, ${initialY + pos}px, 0px)`;
+      const posX = window.pageYOffset * rateX;
+      scroller.style.transform = `translate3d(${initialX + posX}px, ${initialY + pos}px, 0px)`;
     });
     // if(!scroller.value) return;
     // const rate = parseFloat(scroller.value.dataset.rate) || 0;

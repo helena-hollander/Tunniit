@@ -2,7 +2,7 @@
 import { ref, onMounted, watch, onUnmounted } from 'vue'
 import useScrollers from '@/composables/useScrollers';
 
-const props = defineProps(['z', 'initialY', 'rate']);
+const props = defineProps(['z', 'initialY', 'rate', 'initialX', 'rateX']);
 
 
 const { scrollers, setInitialPosition } = useScrollers();
@@ -17,5 +17,5 @@ onMounted(() => {
 <img alt="image" :ref="el => scrollers.push(el)" :class="[
   'absolute',
   z ? `translate-z-${z}` : ''
-  ]" :data-initial-y="props?.initialY" :data-rate="props?.rate"/> 
+  ]" :data-initial-y="props?.initialY" :data-rate="props?.rate" :data-initial-x="props?.initialX" :data-rate-x="props?.rateX"/> 
 </template>

@@ -25,6 +25,8 @@ import ChapterOne from '@/components/layouts/ChapterOne.vue';
     <ChaptersOverview />
     
   </div> -->
+
   <ChapterOne></ChapterOne>
+
 </template>
 
