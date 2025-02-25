@@ -9,15 +9,19 @@ const { scrollers, setInitialPosition } = useScrollers();
 
 // const scroller = ref(null);
 onMounted(() => {
-  setInitialPosition();
+  //setInitialPosition();
 })
 </script>
 
 <template>
-<img alt="image" :ref="el => scrollers.push(el)" :class="[
-  'absolute',
+<img alt="image" :ref="el => scrollers.push(el)" 
+:style="{ marginTop: initialY + 'vw', transform: `translate3d(0,-50%,${rate}vw) scale(${1 + (- rate) / 10})` }"
+
+:class="[
+  'relative',
   'opacity-70',
   'w-full',
   z ? `translate-z-${z}` : ''
   ]" :data-initial-y="props?.initialY" :data-rate="props?.rate" :data-initial-x="props?.initialX" :data-rate-x="props?.rateX"/> 
 </template>
+
