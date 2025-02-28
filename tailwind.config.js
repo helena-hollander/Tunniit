@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontSize: {
+        'dialog2': '1.55rem',
+        'dialog1': '1.1rem',
+      },
       fontFamily: {
         'dialog': ['Ligconsolata', 'sans-serif'],
       },
