@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Ligconsolata';
+    src: url('@src/assets/fonts/Ligconsolata-Regular.ttf') format('truetype');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
