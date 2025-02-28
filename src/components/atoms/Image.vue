@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, watch, onUnmounted } from 'vue'
-import useScrollers from '@/composables/useScrollers';
+import useScrollers from '../../composables/useScrollers';
 
 const props = defineProps(['z', 'initialY', 'rate', 'initialX', 'rateX']);
 

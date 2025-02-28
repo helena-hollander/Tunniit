@@ -5,7 +5,7 @@
 </template>
 <script setup>
 
-import { useChapters } from '@/composables/useChapters';
+import { useChapters } from '../../composables/useChapters';
 import AButton from '@/components/atoms/AButton.vue';
 const { prevChapter, nextChapter, activeChapter, chapters } = useChapters();
 
