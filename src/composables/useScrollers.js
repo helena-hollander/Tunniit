@@ -30,6 +30,7 @@ export default function useScrollers() {
       const pos = window.pageYOffset * rate;
       const posX = window.pageYOffset * rateX;
       scroller.style.transform = `translate3d(${initialX + posX}vw, ${initialY + pos}vw, 0px)`;
+      // console.log(window.pageYOffset);
     });
     // if(!scroller.value) return;
     // const rate = parseFloat(scroller.value.dataset.rate) || 0;

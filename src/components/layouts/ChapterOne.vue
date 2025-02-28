@@ -5,6 +5,7 @@ import Image from '@/components/atoms/Image.vue';
 // import ImageParallaxStyling from '../molecules/imageContainers/ImageParallaxStyling.vue';
 import ImageParallaxJs from '../molecules/imageContainers/ImageParallaxJs.vue';
 import ImageShards from '../molecules/ImageShards.vue';
+// import ImageShardsPartTwo from '../molecules/ImageShardsPartTwo.vue';
 import TextLayout from '../molecules/TextLayout.vue';
 </script>
 
@@ -13,6 +14,7 @@ import TextLayout from '../molecules/TextLayout.vue';
  <section>
  <!-- <ImageParallaxJs></ImageParallaxJs> -->
  <ImageShards></ImageShards>
+ <!-- <ImageShardsPartTwo></ImageShardsPartTwo> -->
  <TextLayout></TextLayout>
  </section>
 </template>
