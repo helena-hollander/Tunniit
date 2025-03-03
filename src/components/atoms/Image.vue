@@ -16,7 +16,7 @@ onMounted(() => {
 <template>
 <img alt="image" :ref="el => scrollers.push(el)" :class="[
   'absolute',
-  'opacity-90',
+  'opacity-100',
   'w-full',
   z ? `translate-z-${z}` : ''
   ]" :data-initial-y="props?.initialY" :data-rate="props?.rate" :data-initial-x="props?.initialX" :data-rate-x="props?.rateX"/> 
