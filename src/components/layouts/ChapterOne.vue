@@ -19,7 +19,7 @@ import TextLayout from '../molecules/TextLayout.vue';
  <TextLayout></TextLayout>
  </section>
  <section2 class="relative">
-<h>hi</h>
+
 <ImageDream></ImageDream>
  </section2>
 </template>
