@@ -4,7 +4,7 @@ import Image from '@/components/atoms/Image.vue';
 </script>
 
 <template>
-  <div class="h-[520vh] overflow-x-hidden relative bg-sky-800"> <!-- overflow-x-hidden og relative, sikrer, at jeg ikke får en horizontal scrollbar -->
+  <div class="h-[520vh] relative bg-sky-800"> <!-- overflow-x-hidden og relative, sikrer, at jeg ikke får en horizontal scrollbar -->
      <Image src="src/assets/images/sketchShards/smoke_sketch01.png" :initialY="'0'" :rate="-0.005" :initialX="'0'" :rateX="0"></Image>
      <Image src="src/assets/images/sketchShards/decision_sketch01.png" :initialY="'28'" :rate="0" :initialX="'0'" :rateX="0"></Image>
      <Image src="src/assets/images/sketchShards/duo_sketch01.png" :initialY="'16'" :rate="0.012" :initialX="'-4'" :rateX="0.008"></Image>

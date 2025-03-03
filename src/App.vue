@@ -10,10 +10,8 @@ import ChapterView from './views/ChapterView.vue'
   <RouterLink to="/chapter">Tunniit</RouterLink>
 
   </header>
-  <body>
   
   <RouterView></RouterView>
-  </body>
  
 </template>
 
