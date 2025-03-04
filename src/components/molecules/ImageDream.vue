@@ -13,5 +13,6 @@ import Image from '@/components/atoms/Image.vue';
      <Image src="src/assets/images/del2Sketch/feet0201.png" :initialY="'218'" :rate="0.018" :initialX="'0'" :rateX="0"></Image>
      <Image src="src/assets/images/del2Sketch/feet0202.png" :initialY="'288'" :rate="0.016" :initialX="'0'" :rateX="0"></Image>
      <Image src="src/assets/images/del2Sketch/handTight0202.png" :initialY="'278'" :rate="0.02" :initialX="'0'" :rateX="0"></Image>
+     <Image src="src/assets/images/del2Sketch/handTight0203.png" :initialY="'428'" :rate="0.012" :initialX="'-10'" :rateX="0.001"></Image>
   </div>
 </template>
