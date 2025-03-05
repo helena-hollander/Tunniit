@@ -47,7 +47,7 @@ export default function useScrollers() {
         const clamped = Math.min(1, Math.max(0, percentage));
 
         scale = scaleTo + ((initialScale - scaleTo) * clamped);
-console.log(scale);
+// console.log(scale);
 
         } else {
           // console.log("initial");

@@ -9,6 +9,7 @@ import ImageDream from '../molecules/ImageDream.vue';
 import ImageMother from '../molecules/ImageMother.vue';
 // import ImageShardsPartTwo from '../molecules/ImageShardsPartTwo.vue';
 import TextLayout from '../molecules/TextLayout.vue';
+import ImageCrack from '../molecules/ImageCrackSection.vue';
 </script>
 
 <template>
@@ -19,14 +20,17 @@ import TextLayout from '../molecules/TextLayout.vue';
  <!-- <ImageShardsPartTwo></ImageShardsPartTwo> -->
  <TextLayout></TextLayout>
  </section>
- <section2 class="relative">
+ <section class="relative">
 
 <ImageDream></ImageDream>
 
- </section2>
- <section3 class="relative">
- <ImageMother></ImageMother>
- </section3>
+ </section>
+ <section class="relative">
+   <ImageMother></ImageMother>
+  </section>
+  <section class="relative">
+    <ImageCrack />
+  </section>
 </template>
 
 <style scoped>
