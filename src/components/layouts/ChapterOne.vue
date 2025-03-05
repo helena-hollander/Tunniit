@@ -11,6 +11,7 @@ import ImageMother from '../molecules/ImageMother.vue';
 // import ImageShardsPartTwo from '../molecules/ImageShardsPartTwo.vue';
 import TextLayout from '../molecules/TextLayout.vue';
 import ImageCrack from '../molecules/ImageCrackSection.vue';
+import ImageEnding from '../molecules/ImageEnding.vue';
 </script>
 
 <template>
@@ -32,7 +33,8 @@ import ImageCrack from '../molecules/ImageCrackSection.vue';
    <ImageMother></ImageMother>
   </section>
   <section class="relative">
-    <ImageCrack />
+    <ImageCrack/>
+    <ImageEnding></ImageEnding>
   </section>
 </template>
 
