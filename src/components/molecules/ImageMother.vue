@@ -4,7 +4,7 @@ import Image from '@/components/atoms/Image.vue';
 </script>
 
 <template>
-  <div class="h-[1000vh] relative"> 
+  <div class="h-[810vh] relative"> 
     <Image src="/images/del3Sketch/mother0201.png" :initialY="'-84'" :rate="0.005" :initialX="'0'" :rateX="0" class="z-10"></Image>
      <Image src="/images/del3Sketch/scream0201.png" :initialY="'-38'" :rate="0.0018" :initialX="'-0.5'" :rateX="0" class="z-10"></Image>
      <Image src="/images/del3Sketch/motherHair0202.png" :initialY="'197'" :rate="0.0032" :initialX="'0'" :rateX="0"></Image>

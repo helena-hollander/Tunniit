@@ -4,11 +4,11 @@ import ImageCrack from '../atoms/ImageCrack.vue';
 </script>
 
 <template>
-    <div class="h-screen w-full bg-[#ff00ff]">
+    <div class="h-[200vh] w-full bg-sky-900">
 
         <div >
 
-            <ImageCrack class="w-full object-cover bg-[#ff0000]" src="/images/del2Sketch/feet0201.png" original-src="/images/del2Sketch/feet0201.png" new-src="/images/del2Sketch/feet0202.png" />
+            <ImageCrack class="w-full object-cover bg-sky-900" src="/images/del4Sketch/cry0301.png" original-src="/images/del4Sketch/cry0301.png" new-src="/images/del4Sketch/wakingShard0301.png" />
         </div>
 
     </div>
