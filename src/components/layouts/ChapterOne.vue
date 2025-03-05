@@ -12,6 +12,7 @@ import ImageMother from '../molecules/ImageMother.vue';
 import TextLayout from '../molecules/TextLayout.vue';
 import ImageCrack from '../molecules/ImageCrackSection.vue';
 import ImageEnding from '../molecules/ImageEnding.vue';
+import TextLayoutEnding from '../molecules/TextLayoutEnding.vue';
 </script>
 
 <template>
@@ -33,8 +34,10 @@ import ImageEnding from '../molecules/ImageEnding.vue';
    <ImageMother></ImageMother>
   </section>
   <section class="relative">
+
     <ImageCrack/>
     <ImageEnding></ImageEnding>
+    <TextLayoutEnding class="absolute translate-y-[680px]"></TextLayoutEnding>
   </section>
 </template>
 
