@@ -14,9 +14,10 @@ import ImageCrack from '../molecules/ImageCrackSection.vue';
 </script>
 
 <template>
+  <Header class=""></Header>
+  <div class="h-[120px] bg-sky-900"></div>
 <!-- <ImageParallaxStyling></ImageParallaxStyling> -->
-  <Header></Header>
- <section>
+ <section class="relative">
  <!-- <ImageParallaxJs></ImageParallaxJs> -->
  <ImageShards></ImageShards>
  <!-- <ImageShardsPartTwo></ImageShardsPartTwo> -->
