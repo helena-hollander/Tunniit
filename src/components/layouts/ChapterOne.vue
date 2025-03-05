@@ -15,7 +15,7 @@ import ImageCrack from '../molecules/ImageCrackSection.vue';
 
 <template>
   <Header class=""></Header>
-  <div class="h-[120px] bg-sky-900"></div>
+  <div class="h-[100px] bg-sky-900"></div>
 <!-- <ImageParallaxStyling></ImageParallaxStyling> -->
  <section class="relative">
  <!-- <ImageParallaxJs></ImageParallaxJs> -->
