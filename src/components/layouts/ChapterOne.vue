@@ -2,6 +2,7 @@
 import { ref, onMounted, onUnmounted } from 'vue';
 // import useSmoothScroll from '@/composables/useSmoothScroll';
 import Image from '@/components/atoms/Image.vue';
+import Header from '@/components/molecules/Header.vue';
 // import ImageContainer from '@/components/molecules/imageContainers/ImageContainer.vue';
 import ImageParallaxJs from '../molecules/imageContainers/ImageParallaxJs.vue';
 import ImageShards from '../molecules/ImageShards.vue';
@@ -14,6 +15,7 @@ import ImageCrack from '../molecules/ImageCrackSection.vue';
 
 <template>
 <!-- <ImageParallaxStyling></ImageParallaxStyling> -->
+  <Header></Header>
  <section>
  <!-- <ImageParallaxJs></ImageParallaxJs> -->
  <ImageShards></ImageShards>
