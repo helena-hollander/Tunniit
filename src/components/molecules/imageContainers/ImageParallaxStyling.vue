@@ -7,10 +7,10 @@ import ImageContainer from '@/components/molecules/imageContainers/ImageContaine
 <template>
 <div class="overflow">
   <div class="parallax relative">
-  <Image imagePath="src/assets/images/mirror.jpg" class="bottomimage absolute object-cover h-full w-full"/>
-  <Image imagePath="src/assets/images/smoke1.png" class="smokeimage absolute object-cover"/>
-  <Image imagePath="src/assets/images/smoke2.png" class="smoke2image absolute object-cover"/>
-  <Image imagePath="src/assets/images/smoke3.png" class="smoke3image absolute object-cover"/>
+  <Image imagePath="/images/mirror.jpg" class="bottomimage absolute object-cover h-full w-full"/>
+  <Image imagePath="/images/smoke1.png" class="smokeimage absolute object-cover"/>
+  <Image imagePath="/images/smoke2.png" class="smoke2image absolute object-cover"/>
+  <Image imagePath="/images/smoke3.png" class="smoke3image absolute object-cover"/>
 
 
 
