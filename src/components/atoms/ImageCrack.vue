@@ -19,7 +19,7 @@ onMounted(() => {
 
 <template>
     
-    <img :ref="el => scrollers.push(el)" class="h-[25vh] w-[25vh] bg-[#ff0000]" :data-new-src="props.newSrc" :data-original-src="props.originalSrc" />
+    <img :ref="el => scrollers.push(el)" class="h-[25vw] w-full bg-[#ff0000]" :data-new-src="props.newSrc" :data-original-src="props.originalSrc" />
 <!-- <img alt="image" :ref="el => scrollers.push(el)" :class="[
   'absolute',
   'opacity-100',

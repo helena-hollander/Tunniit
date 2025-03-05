@@ -41,7 +41,7 @@ export default function useCrack() {
         const newSrc = scroller.dataset.newSrc;
         const originalSrc = scroller.dataset.originalSrc;
         console.log(clamped);
-        if(clamped < 0.9){
+        if(clamped < 0.2){
             scroller.src = newSrc;
         } else {
             scroller.src = originalSrc;
