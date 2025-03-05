@@ -38,9 +38,9 @@ import ImageEnding from '../molecules/ImageEnding.vue';
   </section>
 </template>
 
-<style scoped>
+<!-- <style scoped>
 html {
   scroll-behavior: smooth;
 }
 
-</style>
+</style> -->
