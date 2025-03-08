@@ -6,8 +6,8 @@ import ChapterView from './views/ChapterView.vue'
 
 <template>
   <header class="fixed">
-  <RouterLink to="/">Home</RouterLink>
-  <RouterLink to="/chapter">Tunniit</RouterLink>
+  <RouterLink to="/" class="opacity-0">Home</RouterLink>
+  <RouterLink to="/chapter" class="opacity-0">Tunniit</RouterLink>
 
   </header>
   
