@@ -11,7 +11,7 @@ import { ref, onMounted, onUnmounted } from 'vue'
     <p class="w-[100vw] col-span-3 col-start-4 justify-self-end text-right text-dialog2/[0.8]">DET FØLTES HELT RU?</p>
     <p class="w-[100vw] h-[100px] col-span-3 col-start-1 content-end">GJORDE DET ONDT?</p>
     <p class="w-[100vw] col-span-2 col-start-2 justify-self-end text-right text-dialog2/[0.8]">TJAAHHH...</p>
-    <p class="w-[100vw] h-[880px] col-span-2 col-start-3 justify-self-end text-right content-end text-dialog2/[0.8]">TUSIND TAK IKINNGUT</p>
+    <p class="w-[100vw] h-[880px] col-span-2 col-start-3 justify-self-end text-right content-end text-dialog2/[0.8]">TUSIND TAK <span class="hover:underline">IKINNGUT</span></p>
     <p class="w-[100vw] col-span-2 col-start-3 justify-self-end text-right text-dialog2/[0.8]"><3</p>
     <p class="w-[100vw] h-[680px] col-span-3 col-start-2 content-end">HVAD SYNES DU?</p>
     <p class="w-[100vw] h-[880px] col-span-2 col-start-8  content-end text-dialog2/[0.8]">HA! WOW, DET ER HELT SKØRT</p>
